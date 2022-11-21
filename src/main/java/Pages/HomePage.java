@@ -1,6 +1,4 @@
 package Pages;
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -15,7 +13,7 @@ public class HomePage extends BasePage {
 	}
 	@FindBy(xpath = "//li[@class=' nS6XVS']")
 	public WebElement newCarsMenu;
-	
+
 	@FindBy(xpath = "//a[@href='/new-cars/']//div[@class='o-brXWGL o-bqHweY o-OisZk o-frwuxB ME7bfG  o-bfyaNx']")
 	public WebElement findNewCars;
 
