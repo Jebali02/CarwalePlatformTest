@@ -1,4 +1,4 @@
-package TestCases;
+package Pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -21,7 +21,9 @@ public class NewCarPage extends BasePage {
 	public void gotoHyundai() {
 		driver.findElement(By.xpath("//img[@alt='Honda']")).click();
 	}
-	public void gotoBMW() {
+	public BMWCarPage gotoBMW() {
 		driver.findElement(By.xpath("//img[@alt='BMW']")).click();
+
+	return new BMWCarPage(driver);
 	}
 }

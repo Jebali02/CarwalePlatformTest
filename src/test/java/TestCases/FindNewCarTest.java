@@ -8,8 +8,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 import Pages.HomePage;
+import Pages.NewCarPage;
+import base.BasePage;
 import io.github.bonigarcia.wdm.WebDriverManager;
-public class FindNewCarTest {
+public class FindNewCarTest extends BasePage {
+
+	public FindNewCarTest(WebDriver driver) {
+		super(driver);
+		// TODO Auto-generated constructor stub
+	}
 
 	public static void main(String[] args) {
 
